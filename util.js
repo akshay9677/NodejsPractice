@@ -1,5 +1,13 @@
-function text(name) {
-  return `Hello, ${name} !!!`;
+export function func(name) {
+  return `${name}`;
 }
 
-export default text;
+export function last(n) {
+  return ` ${n} !!! `;
+}
+
+function greet() {
+  return `Hello, `;
+}
+
+export default greet;
