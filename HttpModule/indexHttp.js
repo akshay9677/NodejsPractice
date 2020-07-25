@@ -10,7 +10,7 @@ fs.readFile("./indexHttp.html", (err, html) => {
         res.end();
       }
       if (req.url == "/endPoint") {
-        res.write(html);
+        res.write("<h1>Hello</h1>");
         res.end();
       }
     });
